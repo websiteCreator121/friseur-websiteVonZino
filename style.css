@@ -1,0 +1,95 @@
+html,body{
+  margin:0;
+  padding:0;
+  background:#0a0a0a;
+  color:#fff;
+  font-family:"Manrope",sans-serif;
+}
+
+/* NAV */
+.nav{
+  position:fixed;
+  width:100%;
+  background:rgba(0,0,0,0.8);
+  padding:15px;
+}
+
+.nav__inner{
+  display:flex;
+  justify-content:space-between;
+  align-items:center;
+}
+
+.nav__mark{
+  border:1px solid gold;
+  padding:5px;
+  color:gold;
+}
+
+/* HERO */
+.hero{
+  min-height:100vh;
+  display:flex;
+  align-items:center;
+  justify-content:center;
+  text-align:center;
+}
+
+.hero__title{
+  font-family:"Bebas Neue";
+  font-size:70px;
+}
+
+.hero__title em{
+  color:gold;
+}
+
+/* BUTTON */
+.btn{
+  padding:15px 25px;
+  border-radius:50px;
+  background:white;
+  color:black;
+}
+
+/* SERVICES */
+.services{
+  padding:80px 20px;
+}
+
+.services__grid{
+  display:grid;
+  grid-template-columns:1fr 1fr;
+  gap:20px;
+}
+
+.service{
+  border:1px solid #333;
+  padding:20px;
+}
+
+/* REVIEWS */
+.reviews{
+  padding:80px 20px;
+}
+
+.review{
+  border:1px solid #333;
+  padding:20px;
+}
+
+/* VISIT */
+.visit{
+  padding:80px 20px;
+}
+
+.hours li{
+  display:flex;
+  justify-content:space-between;
+}
+
+/* FOOTER */
+.foot{
+  padding:40px;
+  text-align:center;
+}
